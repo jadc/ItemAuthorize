@@ -1,0 +1,14 @@
+name: ItemAuthorize
+version: 1.0
+description: Give your own seal of approval to any item.
+author: jadc
+website: https://github.com/jadc
+api-version: 1.13
+
+main: me.jadc.itemauthorize.IA
+
+commands:
+  authorize:
+    description: Authorizes the item(s) in your hand.
+    aliases: [auth]
+    usage: Hold the target item(s) in your hand and run /authorize
